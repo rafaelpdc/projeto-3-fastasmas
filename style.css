@@ -4,11 +4,14 @@
     box-sizing: border-box;
     
     
+    
 }
 body{
     width: 100vw;
     height: 100vw;
     background: linear-gradient(130deg, #E8CAFB 0.66%, #8A87C1 83.32%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
 
 
@@ -164,8 +167,63 @@ nav{
     font-size: 16px;
     font-weight: 400;
 }
+@media (max-width: 430px) {
+    nav{
+        display:none
+    }
+    .mestre{
+        display: block;
+        overflow: hidden;
+    }
+    .conteudo-left{
+        width: 100%;
+        margin: 0;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .gost-10{
+        height: 150px;
+        width: 100px;
+        position: relative;
+        left:0 ;
+    }
+    .gost-5{
+        width: 150px;
+        height: 150px;
+        left: 30px;
+    }
+    h2{
+        font: 22px;
+        text-align: center;
+    }
+    .bring-back{
+        font-size: 48px;
+        text-align: center;
+    }
+    .adino{
+        text-align: center;
+        width: 80%;
+        margin: 20px auto;
+    }
+    #book{
+        position: relative;
+        left: 114px;
+    }
+    .track{
+        display: none;
+    }
+    .conteudo-rigth{
+        display: none;
+    }
+    .img-img{
+        position: relative;
+        top:-37px;
+        left: 30px;
+    }
 
-
+}
+   
 
     
 
